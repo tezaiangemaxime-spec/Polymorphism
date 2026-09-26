@@ -41,13 +41,19 @@ public class Main {
 
 
         System.out.println("-----------------------");
-        for (int j = 2; j<10; j++) {
-            members[j] = new BSU_Member();
-        }
+        // Lab 4 - Task 5: different object types in the same array
+        members[2] = new Student();
+        members[3] = new Instructor();
+        members[4] = new BSU_Member();
+        members[5] = new Student();
+        members[6] = new Instructor();
+        members[7] = new BSU_Member();
+        members[8] = new Student();
+        members[9] = new Instructor();
 
 
         System.out.println("-----------------------");
-        for (int j = 2; j<10; j++) {
+        for (int j = 0; j < members.length; j++) {
             members[j].display_information();
         }
 

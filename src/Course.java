@@ -28,6 +28,31 @@ public class Course {
         // Methods signature: Access_modifier, Return_type, Method_name (Param_type Param_name)
         // Return types: void, int, String, boolean, char, array of objects
 
+        // Lab 4 - Task 3: setters and getters
+        public String getName() {
+            return this.name;
+        }
+
+        public void setName(String name) {
+            this.name = name;
+        }
+
+        public int getCourse_number() {
+            return this.course_number;
+        }
+
+        public void setCourse_number(int course_number) {
+            this.course_number = course_number;
+        }
+
+        public int getCredit() {
+            return this.credit;
+        }
+
+        public void setCredit(int credit) {
+            this.credit = credit;
+        }
+
         public void Set_Classroom(String classroom) {
             this.classroom = classroom;
         }

@@ -7,6 +7,12 @@ public class Instructor extends BSU_Member {
 
     }
 
+    // Lab 4 - Task 1: overloaded constructor
+    Instructor(String departement, String status) {
+        this.departement = departement;
+        this.status = status;
+    }
+
     // Task: Create a display method that will print the departement and status
     @Override
     public void display_information() {

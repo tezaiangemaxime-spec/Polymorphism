@@ -32,7 +32,38 @@ public class COSC113  extends Course{
 
     }
     // Methods: Public, default, protected methods are inherited
-    // Setters and Getters - Lab Work
+    // Lab 4 - Task 2: setters and getters
+    public String getSyllabus() {
+        return this.syllabus;
+    }
+
+    public void setSyllabus(String syllabus) {
+        this.syllabus = syllabus;
+    }
+
+    public String getCoding_language() {
+        return this.coding_language;
+    }
+
+    public void setCoding_language(String coding_language) {
+        this.coding_language = coding_language;
+    }
+
+    public Instructor[] getI1() {
+        return this.i1;
+    }
+
+    public void setI1(Instructor[] i1) {
+        this.i1 = i1;
+    }
+
+    public Student[] getStudent() {
+        return this.student;
+    }
+
+    public void setStudent(Student[] student) {
+        this.student = student;
+    }
 
 
     // Method Overriding: Defining a method with the same method signature from the parent class

@@ -12,6 +12,13 @@ public class Student extends BSU_Member{
 
     }
 
+    // Lab 4 - Task 1: overloaded constructor
+    Student(double gpa, Course[] enrolled_courses) {
+        this.gpa = gpa;
+        this.enrolled_courses = enrolled_courses;
+        this.status = "Student";
+    }
+
     // lab-work: Create a getter method for enrolled_courses attribute
     // Getter
     public Course[] getEnrolled_courses() {
